@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np 
 import streamlit as st 
 import pickle
-import train_model
-import test_model
+# import train_model
+# import test_model
 import time
 
 # Header of app
