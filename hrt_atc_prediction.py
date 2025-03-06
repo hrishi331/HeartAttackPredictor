@@ -100,5 +100,7 @@ if st.button('SUBMIT'):
     else:
         st.write(f"User is likely to have **heart attack** with probability of **{round(predict_probability[0][1]*100,1)} %**!!")
 
+    st.subheader('Classification Report')
+    st.write('.......for reference of Data Scientist')
     st.write(classification_report)
 
